@@ -1,0 +1,212 @@
+#info {
+  background-image: url(../assets/images/Intro.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 117vh;
+
+
+
+
+  .caretDoubleDown{
+     
+        width: 32px;
+        height: 32px;
+        display: flex;
+      cursor: pointer;
+        margin: auto;
+  }
+
+  header {
+
+   margin-bottom: 80px;
+    .info {
+      width: 680px;
+      margin: auto;
+      padding-top: 120px;
+      span {
+        margin-top: 56px;
+      }
+      mark {
+        background-color: transparent;
+      }
+      h1 {
+        margin-block: 8px 20px;
+      }
+    
+
+      .profile {
+        position: relative;
+        img {
+          outline: 1px solid var(--main-red);
+          border-radius: 50%;
+          padding: 4.36px;
+          width: 110px;
+          object-fit: cover;
+          aspect-ratio: 1/1;
+        }
+
+
+        
+        span{
+            background: url(../assets/images/code.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          position: absolute;
+          right: 1px;
+          bottom: 2px;
+          width: 31px;
+          height: 25px;
+          z-index: 1;
+         
+        
+        }
+      }
+    }
+  }
+
+
+  .tags{
+    padding-bottom: 94px;
+    div{
+         cursor: pointer;
+        
+        svg{
+            width: 24px;
+            height: 24px;
+        }
+    }
+  }
+
+}
+
+#projecto {
+  max-width: 1200px;
+  margin: auto;
+  padding: 72px 120px 144px 120px;
+
+  header {
+    h2 {
+      padding-bottom: 8px;
+    }
+    h1 {
+      padding-bottom: 56px;
+    }
+  }
+}
+
+.card {
+  background-color: var(--base-gray-300);
+  padding: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 1.5px solid transparent;
+  &:hover {
+    background-color: var(--base-gray-300);
+    padding: 12px;
+    border: 1.5px solid var(--base-gray-400);
+    border-radius: 12px;
+  }
+
+  div {
+    padding-top: 20px;
+  }
+  h1 {
+    padding-bottom: 8px;
+  }
+
+  p {
+    font: var(--text-sm);
+    padding-bottom: 4px;
+  }
+
+  img {
+    width: 100%;
+
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+#services {
+  max-width: 1200px;
+  margin: auto;
+  padding: 88px 120px 120px 120px;
+
+  header:nth-child(1) {
+    h2 {
+      padding-bottom: 8px;
+    }
+
+    h1 {
+      padding-bottom: 56px;
+    }
+  }
+
+  .card {
+    background-color: var(--base-gray-200);
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--base-gray-200);
+    h1 {
+      padding-block: 20px 8px;
+    }
+  }
+}
+
+#contact {
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 128px 120px 200px 120px;
+  height: 117vh;
+  text-align: center;
+  header {
+    h1 {
+      padding-block: 8px;
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 400px;
+      padding: 20px;
+      background-color: var(--base-gray-300);
+      margin-bottom: 16px;
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+      border: 1.5px solid transparent;
+      cursor: pointer;
+
+      &:hover {
+        border: 1.5px solid var(--main-blue);
+        box-shadow: 0px 0px 3px var(--main-blue);
+      }
+
+      &:hover svg path {
+        fill: var(--main-blue);
+      }
+
+      svg {
+        width: 28px;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 12px;
+      }
+    }
+  }
+}
